@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.navbar{
+    background-color: #0a0b27;
+    padding: 20px;
+    font-family: 'Barlow+Condensed',sans-serif;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.navdiv{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin: 10px;
+    
+}
+li a:hover{
+    color:  #e53f27;
+    transition: all .5s ease-in;
+}
+.img{
+    padding-top: 20px;
+    padding-left: 30px;
+    
+}
+.banner{
+    width: 100%;
+}
+.kriti{
+    display: block;
+}
+.container{
+   width: 100%;
+   display: flex;   
+   margin: auto;
+}
+.left{
+    width: 50%;
+    background: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    float: left;
+}
+h1{
+    color: #fff;
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 3px;
+}
+.img-leave{
+  width: 200px;
+  
+  
+}
+.fizz-text{
+    width: 60%;
+    margin: auto;
+    position: absolute;
+}
+.content p{
+    text-align: left;
+    font-size: 24px;
+    position: relative;
+    font-family:  sans-serif;
+
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.content{
+    padding: 120px;
+    font-size: 33px;
+   text-align:left ;
+   line-height: 1.4;
+   font-family: "merivaregular";
+
+}
+.icons{
+    margin-top: 10px;
+}
+.fa {
+    
+    font-size: 10px;
+    color: #fff;
+    background: black;
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 8px;
+  }
+  .img-bottle img{
+    width: 100%;
+  }
+  footer{
+    background-color: #fff;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .container-fluid{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  footer p{
+    font-family: "merivaregular";
+    font-size: 16px;
+    line-height: 1.2;
+    color: #0a0b27;
+    padding-bottom: 10px;
+    transition: all .5s ease-in;
+    
+  }
+  
+  .footer-content{
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+  }
+  footer p a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+  }
+  footer p a:hover {
+    opacity: 0.7;
+    color: #e53f27;
+    text-decoration: underline;
+}
+.fa:hover{
+    background: #e53f27;
+
+}
